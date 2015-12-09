@@ -1,0 +1,3 @@
+exportPattern(".") 
+import(minerva, parallel)
+useDynLib(ICMg.iterations)

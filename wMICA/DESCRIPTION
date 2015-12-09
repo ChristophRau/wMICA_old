@@ -1,0 +1,13 @@
+Package: wMICA
+Type: Package
+Title: wMICA: Weighted Maximal Interaction Component Analysis
+Version: 1.0
+Date: 2015-09-11
+Author: Christoph Rau <chrau@ucla.edu>
+Maintainer: Christoph Rau <chrau@ucla.edu>
+Description:  co-expression network analysis which combines maximal information (with MINErva) with a modified version of the Interaction Component Modeling for genes (ICMg) functions which have been altered to allow for weighted as opposed to binary gene/gene links.  Provides functions for computing weighted module memberships for each gene in a variety of ways.
+License: GNU GPL 3 or any later version (at your option)
+Depends:
+  minerva, parallel
+LazyData: true
+Packaged: Fri, Sep 11 13:18:13 2015; chrau
