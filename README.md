@@ -18,3 +18,5 @@ Module Seeding:  If desired, the non-supervised nature of the algorithm may be c
 
 UPCOMING FEATURE:
 Weighted GO Enrichment, which will harness the continuous nature of the module memberships to calculate GO enrichment without the need for a hard threshold.
+
+Note:  There is a bug if the last (or last several) genes in your dataset do not have strong enough MI scores to pass the threshold for inclusion in the algorithm.  Deleting these columns will fix the problem, and I will patch the problem shortly.
