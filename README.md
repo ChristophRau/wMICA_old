@@ -6,7 +6,7 @@ A weighted implementation of Maximal Information Component Analysis
 
 wMICA is an updated form of Maximal Information Component Analysis as originally described here: http://www.ncbi.nlm.nih.gov/pubmed/23487572
 
-Usage:  Download the .tar.gz package and add it to R as you would any other compressed package.  For now, only works on UNIX-based systems (Mac/Linux)
+Usage:  Download the .tar.gz package and add it to R as you would any other compressed package.  
 
 MICA is used for the analysis of large interconnected networks and the identification of modules of similarly-acting nodes within the larger network.  It was designed specifically to work with gene expression datasets (RNA microarrays, RNAseq, etc), but is expandable to any relational network.  wMICA avoids two common pitfalls by using the Maximal Information instead of Pearson correlation to calulate node relatedness, which preserves non-linear relationships in the data, as well as a interaction component modeling process to allow each node to proportionally have membership in all modules.
 
